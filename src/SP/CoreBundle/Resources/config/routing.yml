@@ -1,3 +1,4 @@
 sp_core_homepage:
     path:     /
-    defaults: { _controller: SPCoreBundle:Default:index }
+    defaults:
+        _controller: SPCoreBundle:Core:index
