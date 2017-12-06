@@ -14,13 +14,3 @@
 !var/SymfonyRequirements.php
 /vendor/
 /web/bundles/
-.settings
-.buildpath
-.project
-app/
-bin/
-composer.json
-composer.lock
-phpunit.xml.dist
-var/
-web/
