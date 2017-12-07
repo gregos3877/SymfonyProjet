@@ -1,0 +1,3 @@
+sp_plateform_homepage:
+    path:     /
+    defaults: { _controller: SPPlateformBundle:Default:index }
