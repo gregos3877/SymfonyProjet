@@ -3,6 +3,7 @@
 namespace SP\BackendBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Doctrine\DBAL\Types\IntegerType;
 
 /**
  * Donnee
@@ -41,6 +42,12 @@ class Donnee
      * @ORM\Column(name="valeurDonnee", type="integer")
      */
     private $valeurDonnee;
+    
+    public function __construct(string $nomDonnee, \DateTime $dateDonnee, IntegerType $valeurDonnee) {
+    	$this->nomDonnee = $nomDonnee;
+    	$this->dateDonnee = $dateDonnee;
+    	$this->valeurDonnee = $valeurDonnee;
+    }
 
 
     /**
