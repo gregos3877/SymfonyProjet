@@ -4,10 +4,10 @@ namespace SP\BackendBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-class DefaultController extends Controller
+class BackendController extends Controller
 {
     public function indexAction()
     {
-        return $this->render('SPBackendBundle:Default:index.html.twig');
+        return $this->render('SPBackendBundle:Backend:index.html.twig');
     }
 }
