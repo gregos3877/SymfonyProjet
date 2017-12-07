@@ -1,0 +1,3 @@
+sp_backend_homepage:
+    path:     /
+    defaults: { _controller: SPBackendBundle:Default:index }

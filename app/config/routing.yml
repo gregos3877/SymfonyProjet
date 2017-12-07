@@ -1,3 +1,7 @@
+sp_backend:
+    resource: "@SPBackendBundle/Resources/config/routing.yml"
+    prefix:   /backend
+
 sp_plateform:
     resource: "@SPPlateformBundle/Resources/config/routing.yml"
     prefix:   /plateform
